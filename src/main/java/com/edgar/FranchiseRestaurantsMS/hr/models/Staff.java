@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 @Entity
 public class Staff extends Employee{
 	
-//	Takes order
+
 	
 	public Staff() {
 		
