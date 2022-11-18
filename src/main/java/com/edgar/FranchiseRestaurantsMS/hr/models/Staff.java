@@ -3,16 +3,14 @@ package com.edgar.FranchiseRestaurantsMS.hr.models;
 import javax.persistence.Entity;
 
 @Entity
-public class Receptionist extends Employee {
+public class Staff extends Employee{
 	
-//	creates reservation
+//	Takes order
 	
-	
-	public Receptionist() {
+	public Staff() {
 		
 	}
 
-	
 	@Override
 	public int hashCode() {
 		return super.hashCode();
@@ -40,4 +38,7 @@ public class Receptionist extends Employee {
 				+ getPhone() + ", getEmail()=" + getEmail() + ", getPhoto()=" + getPhoto() + ", getClass()="
 				+ getClass() + "]";
 	}
+
+	
+	
 }
