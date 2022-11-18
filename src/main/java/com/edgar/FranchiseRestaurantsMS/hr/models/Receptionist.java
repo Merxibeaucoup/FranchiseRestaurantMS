@@ -31,12 +31,13 @@ public class Receptionist extends Employee {
 
 	@Override
 	public String toString() {
-		return "Chef [hashCode()=" + hashCode() + ", getId()=" + getId() + ", getEmployeeId()=" + getEmployeeId()
-				+ ", getHireDate()=" + getHireDate() + ", getEmployeestatus()=" + getEmployeestatus() + ", toString()="
-				+ super.toString() + ", getFirstname()=" + getFirstname() + ", getLastname()=" + getLastname()
-				+ ", getSocialSecurityNumber()=" + getSocialSecurityNumber() + ", getGender()=" + getGender()
-				+ ", getDate()=" + getDate() + ", getAddress()=" + getAddress() + ", getCity()=" + getCity()
-				+ ", getState()=" + getState() + ", getZipcode()=" + getZipcode() + ", getPhone()=" + getPhone()
-				+ ", getEmail()=" + getEmail() + ", getPhoto()=" + getPhoto() + ", getClass()=" + getClass() + "]";
+		return "Waiter [hashCode()=" + hashCode() + ", getEmployeeId()=" + getEmployeeId()
+				+ ", getSocialSecurityNumber()=" + getSocialSecurityNumber() + ", getHireDate()=" + getHireDate()
+				+ ", getEmployeestatus()=" + getEmployeestatus() + ", toString()=" + super.toString() + ", getId()="
+				+ getId() + ", getFirstname()=" + getFirstname() + ", getLastname()=" + getLastname() + ", getGender()="
+				+ getGender() + ", getBirthdate()=" + getBirthdate() + ", getAddress()=" + getAddress() + ", getCity()="
+				+ getCity() + ", getState()=" + getState() + ", getZipcode()=" + getZipcode() + ", getPhone()="
+				+ getPhone() + ", getEmail()=" + getEmail() + ", getPhoto()=" + getPhoto() + ", getClass()="
+				+ getClass() + "]";
 	}
 }
